@@ -279,6 +279,9 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
+.top-text-hiden {
+  visibility: hidden;
+}
 .top-list {
   display: flex;
   justify-content: center;
