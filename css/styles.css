@@ -58,7 +58,8 @@ img {
 }
 .section-feature {
   display: block;
-  padding: 120px o;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .section-doing {
   padding-bottom: 120px;
@@ -106,7 +107,8 @@ img {
   gap: 40px;
 }
 .menu-list {
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-list {
   font-weight: 500;
@@ -257,7 +259,8 @@ img {
 }
 .main-foot {
   background-color: var(--logo1);
-  padding: 100px o;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .foot-logo {
   font-family: 'Raleway', sans-serif;
