@@ -60,8 +60,6 @@ img {
 .section-doing {
   padding-bottom: 120px;
 }
-header {
-}
 .foot-container {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -75,7 +73,10 @@ header {
 
 /*main head*/
 .header-container {
-  border-bottom: solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+}
+.head-cont {
+  display: flex;
 }
 .nav-container {
   display: flex;
@@ -159,14 +160,20 @@ header {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
 }
 .section-top-button {
+  display: block;
   background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .section-top-button:hover {
   background-color: #404bbf;
