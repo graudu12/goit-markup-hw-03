@@ -45,6 +45,8 @@ ol {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 /*flex-box*/
 .container {
@@ -279,7 +281,7 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.top-text-hiden {
+.visually-hidden {
   visibility: hidden;
 }
 .top-list {
