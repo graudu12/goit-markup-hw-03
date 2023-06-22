@@ -61,9 +61,13 @@ img {
   padding-bottom: 120px;
 }
 .foot-container {
+  padding: 100px 0;
+}
+/*
+.foot-container {
   padding-top: 100px;
   padding-bottom: 100px;
-}
+}*/
 .link:hover {
   color: #404bbf;
 }
@@ -259,6 +263,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .foot-logo-span {
   color: #f4f4fd;
