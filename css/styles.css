@@ -42,6 +42,9 @@ ol {
   margin: 0;
   padding: 0;
 }
+img {
+  display: block;
+}
 /*flex-box*/
 .container {
   width: 1158px;
@@ -70,6 +73,13 @@ header {
 }
 
 /*main head*/
+.header-container {
+  border-bottom: solid #e7e9fc;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+}
 .nav-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -78,6 +88,14 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo);
+  margin-right: 76px;
+}
+.menu-container {
+  display: flex;
+  gap: 40px;
+}
+.menu-list {
+  padding: 24px 0;
 }
 .nav-list {
   font-weight: 500;
@@ -85,9 +103,15 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--logo1);
+  gap: 40px;
+  padding: 24px 0;
 }
 .logo {
   color: var(--logo1);
+}
+.address-container {
+  display: flex;
+  gap: 40px;
 }
 .address-list-title {
   font-size: 16px;
@@ -104,6 +128,7 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo);
+  margin-right: 76px;
 }
 .nav-list-links {
   font-weight: 500;
